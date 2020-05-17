@@ -6,17 +6,17 @@ if (4 == 9) {
     console.log('Error');
 }
 
-const num = 50;
+//  const num = 50;
 
-if (num<49) {
-    console.log('Err');
-} else if (num>100) {
-    console.log('Too Much');
-} else {
-    console.log('Okey');
-}
+// if (num<49) {
+//     console.log('Err');
+// } else if (num>100) {
+//     console.log('Too Much');
+// } else {
+//     console.log('Okey');
+// }
 
-(num === 50) ? console.log('Ok!'):  console.log('Error'); // ? и : равны по смыслу "то" и "иначе" - тринарный аргумент
+// (num === 50) ? console.log('Ok!'):  console.log('Error'); // ? и : равны по смыслу "то" и "иначе" - тринарный аргумент
  
 const num = 50;
 
@@ -33,4 +33,4 @@ switch (num) {               //оператор для множественно�
     default:                 //на случай, если никакое условие не подошло
         console.log('Oops');
         break;
-};
+}
